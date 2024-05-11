@@ -1,8 +1,9 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
-
+/*
+ * test test test waaaaa
+ */
 class Solution {
     /**
      * extremely shitty implementation i cooked up because i forgot hashtables existsed
@@ -79,7 +80,7 @@ class Solution {
     }
 }
 
-public class anagram {
+public class anagramChecker {
     public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.isAnagram("anagram", "nagaram"));
