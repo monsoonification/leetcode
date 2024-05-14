@@ -16,7 +16,7 @@ class Solution {
         
     }
 }
-
+// for some reason the leetcode website compiles my code but vscode hates me, hm.
 public class palindromechecker009{
     public static void main(String[] args) {
         Solution solution = new Solution();
