@@ -1,8 +1,15 @@
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Arrays;
 
-
+public class MergeArray088 {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] test1 = {1,2,3,0,0,0};
+        int[] test2 = {2,5,6};
+        solution.merge(test1, 3, test2, 3);
+        System.out.println(test1.toString());
+    }
+}
 
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -32,12 +39,3 @@ class Solution {
     }
 }
 
-public class MergeArray088 {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] test1 = {1,2,3,0,0,0};
-        int[] test2 = {2,5,6};
-        solution.merge(test1, 3, test2, 3);
-        System.out.println(test1);
-    }
-}
